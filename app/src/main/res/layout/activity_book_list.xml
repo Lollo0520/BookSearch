@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.jetwang.booksearch.BookListActivity">
 
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
     <ListView
         android:id="@+id/lvBooks"
         android:layout_width="match_parent"
